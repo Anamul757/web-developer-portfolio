@@ -88,6 +88,10 @@ flex-direction: column;
 margin-bottom: 20px;
 }
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles*/
 .about{
      padding: 130px; 
@@ -105,4 +109,11 @@ section-descreption{
     color: #757575;
     text-align: center;
     font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
